@@ -22,7 +22,7 @@ const AddProduct = () => {
 
         alert('Product added!')
         reset()
-        navigate('/products')//go to Products page on client side
+        navigate('/')
     }
 
   return (
