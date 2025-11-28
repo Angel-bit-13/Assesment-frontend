@@ -51,7 +51,7 @@ const AddProduct = () => {
 
             <textarea
             placeholder='Enter category'
-            className='w-full border p-2 rounded h-24'
+            className='w-full border p-2 rounded'
             {...register("category")}
             />
 
