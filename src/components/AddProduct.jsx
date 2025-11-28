@@ -9,7 +9,7 @@ const AddProduct = () => {
 
     const onSubmit = async (data)=>{
         console.log(data)
-        const response = await fetch("http://localhost:3000/product",{
+        const response = await fetch("https://fakestoreapi.com/products",{
           method:"POST",
           headers:{
             "Content-Type":"application/json"
