@@ -1,7 +1,6 @@
 import React from 'react'
 import {BrowserRouter as Router,Routes,Route,Link} from 'react-router-dom'
 import Home from './components/Home'
-import Products from './components/Products'
 import AddProduct from './components/AddProduct'
 
 
@@ -15,9 +14,7 @@ const App = () => {
             <li>
               <Link to="/" className='text-white hover:text-gray-300'>Home</Link>
             </li>
-            <li>
-              <Link to="/products" className='text-white hover:text-gray-300'>Products</Link>
-            </li>
+            
             <li>
               <Link to="/addproduct" className='text-white hover:text-gray-300'>Add Product</Link>
             </li>
@@ -29,7 +26,6 @@ const App = () => {
 
       <Routes>
         <Route path='/' element = {<Home />}/>
-        <Route path='/products' element = {<Products />}/>
         <Route path='/addproduct' element = {<AddProduct />}/>
       </Routes>
       
