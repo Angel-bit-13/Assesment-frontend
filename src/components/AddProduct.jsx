@@ -29,7 +29,7 @@ const AddProduct = () => {
     <div className='flex justify-center items-center min-h-screen bg-cyan-100'>
         <form className='bg-white p-6 rounded-lg shadow-md w-96 space-y-4' 
          onSubmit={handleSubmit(onSubmit)}>
-            <h2 className='text-x1 font-semibold text-center'>Add product</h2>
+            <h2 className='text-x1 font-semibold text-center font-serif  caret-cyan-900'>ADD PRODUCT</h2>
             
             <input 
             placeholder='Enter product name'
@@ -56,7 +56,7 @@ const AddProduct = () => {
             />
 
             <button className='w-full bg-cyan-900 hover:bg-cyan-950
-             text-white py-2 rounded'>Add product</button>
+             text-white py-2 rounded'>Add Product</button>
         </form>
 
     </div>
